@@ -1,4 +1,4 @@
-# filmapp
+# calculator
 
 A new Flutter project.
 
