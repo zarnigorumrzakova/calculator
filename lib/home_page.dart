@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(10),
               alignment: Alignment.centerRight,
               decoration: BoxDecoration(
-                  color: Colors.grey,
+                  color: Colors.greenAccent,
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(color: Colors.black)),
               child: Text(
@@ -224,7 +224,7 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(400, 60),
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: Colors.green,
               ),
               onPressed: () {
                 _calculate();
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 34,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
             ),
